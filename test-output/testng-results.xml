@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-20T20:15:36 CDT" name="Default suite" finished-at="2023-08-20T20:15:39 CDT" duration-ms="3219">
+    <groups>
+    </groups>
+    <test started-at="2023-08-20T20:15:36 CDT" name="Default test" finished-at="2023-08-20T20:15:39 CDT" duration-ms="3219">
+      <class name="demo.TestNgDemo">
+        <test-method is-config="true" signature="launch()[pri:0, instance:demo.TestNgDemo@2e385cce]" started-at="2023-08-20T20:15:36 CDT" name="launch" finished-at="2023-08-20T20:15:39 CDT" duration-ms="2855" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="search()[pri:0, instance:demo.TestNgDemo@2e385cce]" started-at="2023-08-20T20:15:39 CDT" name="search" finished-at="2023-08-20T20:15:39 CDT" duration-ms="203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:demo.TestNgDemo@2e385cce]" started-at="2023-08-20T20:15:39 CDT" name="closeBrowser" finished-at="2023-08-20T20:15:39 CDT" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- demo.TestNgDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
