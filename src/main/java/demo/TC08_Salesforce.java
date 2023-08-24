@@ -7,7 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class TC25_SalesForce {
+public class TC08_Salesforce {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -28,26 +28,11 @@ public class TC25_SalesForce {
 		WebElement login = driver.findElement(By.xpath("//input[@id= 'Login']"));
 		login.click();
 		
-		WebElement conBtn = driver.findElement(By.xpath("//a[@title='Contacts Tab']"));
-		conBtn.click();
+		WebElement userBtn = driver.findElement(By.id("userNavLabel"));
+		userBtn.click();
 		
-		
-		
-		WebElement newBtn = driver.findElement(By.xpath("//input[@title='New']"));
-		newBtn.click();
-		
-		WebElement lastName = driver.findElement(By.id("name_lastcon2"));
-		lastName.sendKeys("LastName");		
-		
-		WebElement account = driver.findElement(By.id("con4"));
-		account.sendKeys("<AccountName>");	
-		
-		WebElement save = driver.findElement(By.xpath("//td[@id='topButtonRow']//input[@title='Save']"));
-		save.click();
-		
-		driver.close();
-		driver.quit();
-		
+		WebElement devConsole = driver.findElement(By.xpath("//*[@id=\"userNav-menuItems\"]/a[4]"));
+		devConsole.click();
 		
 		
 		

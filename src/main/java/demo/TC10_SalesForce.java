@@ -7,9 +7,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class TC25_SalesForce {
+public class TC10_SalesForce {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 		WebDriver driver = new ChromeDriver();
 		
@@ -28,29 +28,30 @@ public class TC25_SalesForce {
 		WebElement login = driver.findElement(By.xpath("//input[@id= 'Login']"));
 		login.click();
 		
-		WebElement conBtn = driver.findElement(By.xpath("//a[@title='Contacts Tab']"));
-		conBtn.click();
-		
-		
+		WebElement accounts = driver.findElement(By.xpath("//a[@title='Accounts Tab']"));
+		accounts.click();
 		
 		WebElement newBtn = driver.findElement(By.xpath("//input[@title='New']"));
 		newBtn.click();
 		
-		WebElement lastName = driver.findElement(By.id("name_lastcon2"));
-		lastName.sendKeys("LastName");		
+		WebElement accName = driver.findElement(By.xpath("//input[@id='acc2']"));
+		accName.sendKeys("account02");
 		
-		WebElement account = driver.findElement(By.id("con4"));
-		account.sendKeys("<AccountName>");	
+		WebElement type = driver.findElement(By.xpath("//select[@id='acc6']"));
+		type.click();
 		
-		WebElement save = driver.findElement(By.xpath("//td[@id='topButtonRow']//input[@title='Save']"));
-		save.click();
+		WebElement techpart = driver.findElement(By.xpath("//*[@id=\"acc6\"]/option[7]"));
+		techpart.click();
 		
+		WebElement cusPrio = driver.findElement(By.xpath("//select[@id='00NHu00000PEI36']"));
+		cusPrio.click();
+		
+		WebElement high = driver.findElement(By.xpath("//*[@id=\"00NHu00000PEI36\"]/option[2]"));
+		high.click();
+		
+		Thread.sleep(5000);
 		driver.close();
 		driver.quit();
-		
-		
-		
-		
 	}
 
 }
