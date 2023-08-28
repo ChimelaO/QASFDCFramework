@@ -11,19 +11,19 @@ public class Selenium {
 		
 		WebDriver driver = new ChromeDriver();
 	
-		driver.get("https://selenium-prd.firebaseapp.com/");
+		driver.get("https://xe.com/");
 		
-		WebElement email = driver.findElement(By.id("email_field"));
-		WebElement password = driver.findElement(By.id("password_field"));
-		WebElement LoginButton = driver.findElement(By.xpath("//button[contains(text(),'Login')]"));
-		//WebElement WidgetButton = driver.findElement(By.xpath("//button[contains(text(),'Widget')]"));
-		
-		email.sendKeys("admin123@gmail.com");
-		
-		password.sendKeys("admin123");
-		
-		LoginButton.click();
-		//WidgetButton.click();
+//		WebElement email = driver.findElement(By.id("email_field"));
+//		WebElement password = driver.findElement(By.id("password_field"));
+//		WebElement LoginButton = driver.findElement(By.xpath("//button[contains(text(),'Login')]"));
+//		//WebElement WidgetButton = driver.findElement(By.xpath("//button[contains(text(),'Widget')]"));
+//		
+//		email.sendKeys("admin123@gmail.com");
+//		
+//		password.sendKeys("admin123");
+//		
+//		LoginButton.click();
+//		//WidgetButton.click();
 		
 		Thread.sleep(5000);
 	}

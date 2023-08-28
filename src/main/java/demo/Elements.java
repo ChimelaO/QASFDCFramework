@@ -21,12 +21,12 @@ public class Elements {
 		
 		driver.navigate().to("https://trytestingthis.netlify.app/");
 		
-//		List<WebElement> options = driver.findElements(By.name("Optionwithcheck[]"));
-//		
-//		for(WebElement element : options) {
-//			System.out.println(element.getText());
-//		}
-//		
+		List<WebElement> options = driver.findElements(By.name("Optionwithcheck[]"));
+		
+		for(WebElement element : options) {
+			System.out.println(element.getText());
+		}
+		
 		WebElement fname = driver.findElement(By.cssSelector("#fname")); 
 		
 		fname.sendKeys("Chimela");
@@ -48,8 +48,8 @@ public class Elements {
 		
 		 
 		
-//		driver.close();
-//		driver.quit();
+		driver.close();
+		driver.quit();
 
 		
 	}
