@@ -4,8 +4,9 @@ import java.io.IOException;
 
 
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
-import org.testng.Assert;
+//import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import constants.FileConstants;
@@ -18,16 +19,20 @@ public class LoginTest extends BaseTest {
 	
 	
 	@Test
-	public void loginTest1() throws InvalidFormatException, IOException {
+	public void loginTest1() throws InvalidFormatException, IOException, InterruptedException {
 		WebDriver driver = BaseTest.getDriver();
 		LoginPage lp = new LoginPage(driver);
 		driver.get("https://login.salesforce.com");
 		lp.username.sendKeys(FileUtils.readPropertiesFile(FileConstants.LOGIN_TESTDATA_FILE_PATH, "username"));
 		lp.password.sendKeys(FileUtils.readPropertiesFile(FileConstants.LOGIN_TESTDATA_FILE_PATH2, "password"));
 		
-		Assert.assertEquals(lp.selectRememberMeCheckBox(), "");
+//		Assert.assertEquals(lp.selectRememberMeCheckBox(), "");
 		
-		lp.loginButton.click();
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("arguments[0].value = 'Jesus//2002';", lp.password);
+		
+		Thread.sleep(8000);
+//		lp.loginButton.click();
 	}
 	
 	

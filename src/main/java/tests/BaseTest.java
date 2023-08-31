@@ -1,14 +1,30 @@
 package tests;
 
+import java.io.File;
+import java.lang.reflect.Method;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.safari.SafariDriver;
-import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeTest;
+
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.reporter.ExtentSparkReporter;
+
+import constants.FileConstants;
 
 public class BaseTest {
+	private static ThreadLocal<WebDriver> threadLocalDriver = new ThreadLocal<>();
+	
+	static ExtentReports extent = new ExtentReports();
+	static ExtentSparkReporter spark = null;
+	static ExtentTest test = null;
 	
 // Requirements
 // Cross browser support
@@ -16,11 +32,18 @@ public class BaseTest {
 // Proper reporting - Accurate Assertions
 // Generate logs in the framework
 	
-	private static ThreadLocal<WebDriver> threadLocalDriver = new ThreadLocal<>();
-	
 	@BeforeMethod
+	public void setup(Method name) {
+		BaseTest.test = extent.createTest(name.getName());
+	}
+	
+	
+	
+	@BeforeTest
 	public void setDriver() {
-		WebDriver driver = BaseTest.getBrowserType("chrome");
+		spark = new ExtentSparkReporter(new File(FileConstants.REPORT_PATH));
+		extent.attachReporter(spark);
+		WebDriver driver = BaseTest.getBrowserType("chrome", false);
 		threadLocalDriver.set(driver);
 	}
 	
@@ -28,14 +51,14 @@ public class BaseTest {
 		return threadLocalDriver.get();
 	}
 	
-	@AfterMethod
+	@AfterTest
 	public static void removeDriver() throws InterruptedException {
-		Thread.sleep(5000);
 		getDriver().close();
 		threadLocalDriver.remove();
+		extent.flush();
 	}
 	
-	public static WebDriver getBrowserType(String browserName) {
+	public static WebDriver getBrowserType(String browserName, boolean headless) {
 		
 		WebDriver driver;
 		
@@ -43,7 +66,13 @@ public class BaseTest {
 		
 		switch (browserType) {
 		case "chrome":
-			driver = new ChromeDriver();
+			if (headless) {
+				ChromeOptions co = new ChromeOptions();
+				co.addArguments("--headless");
+				driver = new ChromeDriver(co);
+			} else {
+				driver = new ChromeDriver();
+			}
 			break;
 			
 		case "firefox":

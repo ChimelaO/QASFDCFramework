@@ -1,9 +1,15 @@
 package pages;
 
+import java.io.IOException;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+
+import constants.FileConstants;
+import utils.CommonUtils;
+import utils.FileUtils;
 
 public class LoginPage extends BasePage {
 	
@@ -48,6 +54,16 @@ public class LoginPage extends BasePage {
 		} 
 		
 		return isSelected;
+	}
+	
+	public void loginToApp(WebDriver driver) throws IOException {
+		driver.get(FileUtils.readPropertiesFile(FileConstants.LOGIN_TESTDATA_FILE_PATH2, "prod.url"));
+		driver.manage().window().maximize();
+		if (CommonUtils.waitForElement(driver, username)) {
+			username.sendKeys(FileUtils.readPropertiesFile(FileConstants.LOGIN_TESTDATA_FILE_PATH2, "username"));
+			password.sendKeys(FileUtils.readPropertiesFile(FileConstants.LOGIN_TESTDATA_FILE_PATH2, "password"));
+			loginButton.click();
+		}
 	}
 	
 	
