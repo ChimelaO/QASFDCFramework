@@ -6,7 +6,7 @@ import java.util.List;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.WindowType;
+//import org.openqa.selenium.WindowType;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
@@ -238,7 +238,7 @@ public class UserMenuPage extends BasePage {
 	}
 	
 	public boolean verifyUserMenuItems() throws IOException {
-		
+		logger.info("UserMenuPage : verifyUserMenuItems : started");
 		boolean isOptionVerified = true;
 		
 		String[] expectedUserMenuItems = FileUtils.readUserMenuTestData("usermenu.items").split(",");
@@ -248,10 +248,11 @@ public class UserMenuPage extends BasePage {
 			
 			if(expectedUserMenuItems[i].equals(actualOption)) {
 				
-				System.out.println("Option " +expectedUserMenuItems[i] + " Actual Option" + actualOption);
+				logger.info("Option: " +expectedUserMenuItems[i] + " || Actual Option: " + actualOption);
 				
 			} else {
-				System.out.println("Expected option " + expectedUserMenuItems[i] + "failed to match with Actual Option" + actualOption);
+				logger.warn("UserMenuPage : verifyUserMenuItems : Failed to match the order of usermenu");
+				logger.info("Expected option " + expectedUserMenuItems[i] + "failed to match with Actual Option" + actualOption);
 				isOptionVerified = false;
 			}
 		}
@@ -259,7 +260,7 @@ public class UserMenuPage extends BasePage {
 	}
 	
 	public boolean selectMyProfile() throws IOException {
-		
+		logger.info("Selecting my profile");
 		boolean isSelected = false;
 		if(MyProfile.isDisplayed()) {
 			MyProfile.click();
@@ -273,6 +274,17 @@ public class UserMenuPage extends BasePage {
 		boolean isSelected = false;
 		if(DevelopersConsole.isDisplayed()) {
 			DevelopersConsole.click();
+			isSelected = true;
+		}
+		
+		return isSelected;
+	}
+	
+	public boolean selectLogoutbutton() {
+		logger.info("Selected Logout button");
+		boolean isSelected = false;
+		if(Logout.isDisplayed()) {
+			Logout.click();
 			isSelected = true;
 		}
 		

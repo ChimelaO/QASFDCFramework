@@ -47,16 +47,18 @@ public class LoginPage extends BasePage {
 	
 	
 	public boolean selectRememberMeCheckBox() {
+		logger.info("LoginPage : selectRememberMeCheckBox : Started");
 		boolean isSelected = false;
 		if(!rememberMe.isSelected()) {
 			rememberMe.click();
 			isSelected = true;
 		} 
-		
+		logger.info("LoginPage : selectRememberMeCheckBox : Ended");
 		return isSelected;
 	}
 	
 	public void loginToApp(WebDriver driver) throws IOException {
+		logger.info("LoginPage : loginToApp : started");
 		driver.get(FileUtils.readPropertiesFile(FileConstants.LOGIN_TESTDATA_FILE_PATH2, "prod.url"));
 		driver.manage().window().maximize();
 		if (CommonUtils.waitForElement(driver, username)) {

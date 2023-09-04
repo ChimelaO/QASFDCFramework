@@ -1,0 +1,208 @@
+2023-09-01-01:11:07 INFO  BaseTest : setDriver :  Spark report configured
+2023-09-01-01:11:07 INFO  BaseTest : getBrowserType : Headless chrome configured
+2023-09-01-01:11:09 INFO  BaseTest : setDriver : driver object assigned
+2023-09-01-01:11:09 INFO  LoginPage : loginToApp : started
+2023-09-01-01:11:13 INFO  BaseTest: setup : userMenuDropDown_TC06Test Object for reporting is created
+2023-09-01-01:11:18 INFO  UserMenuPage : verifyUserMenuItems : started
+2023-09-01-01:11:49 INFO  BaseTest: setup : userMenuDropDown_TC08Test Object for reporting is created
+2023-09-01-01:11:49 INFO  UserMenuPage : verifyUserMenuItems : started
+2023-09-01-01:11:49 INFO  BaseTest : removeDriver : removed driver
+2023-09-01-01:27:23 INFO  BaseTest : setDriver :  Spark report configured
+2023-09-01-01:27:23 INFO  BaseTest : getBrowserType : Headless chrome configured
+2023-09-01-01:27:25 INFO  BaseTest : setDriver : driver object assigned
+2023-09-01-01:27:25 INFO  BaseTest: setup : loginTest1Test Object for reporting is created
+2023-09-01-01:27:26 INFO  BaseTest : removeDriver : removed driver
+2023-09-01-12:15:16 INFO  BaseTest : setDriver :  Spark report configured
+2023-09-01-12:15:16 INFO  BaseTest : getBrowserType : Headless chrome configured
+2023-09-01-12:15:18 INFO  BaseTest : setDriver : driver object assigned
+2023-09-01-12:15:18 INFO  BaseTest: setup : loginTest1Test Object for reporting is created
+2023-09-01-12:15:22 INFO  LoginPage : loginToApp : started
+2023-09-01-12:15:22 INFO  BaseTest: setup : userMenuDropDown_TC06Test Object for reporting is created
+2023-09-01-12:15:25 INFO  UserMenuPage : verifyUserMenuItems : started
+2023-09-01-12:15:51 INFO  BaseTest : removeDriver : removed driver
+2023-09-01-12:32:14 INFO  BaseTest : setDriver :  Spark report configured
+2023-09-01-12:32:14 INFO  BaseTest : getBrowserType : Headless chrome configured
+2023-09-01-12:32:15 INFO  BaseTest : setDriver : driver object assigned
+2023-09-01-12:32:15 INFO  LoginPage : loginToApp : started
+2023-09-01-12:32:19 INFO  BaseTest: setup : userMenuDropDown_TC06Test Object for reporting is created
+2023-09-01-12:32:21 INFO  UserMenuPage : verifyUserMenuItems : started
+2023-09-01-12:32:43 INFO  BaseTest : removeDriver : removed driver
+2023-09-01-12:33:22 INFO  BaseTest : setDriver :  Spark report configured
+2023-09-01-12:33:24 INFO  BaseTest : getBrowserType : Chrome configured
+2023-09-01-12:33:24 INFO  BaseTest : setDriver : driver object assigned
+2023-09-01-12:33:24 INFO  LoginPage : loginToApp : started
+2023-09-01-12:33:26 INFO  BaseTest: setup : userMenuDropDown_TC06Test Object for reporting is created
+2023-09-01-12:33:27 INFO  UserMenuPage : verifyUserMenuItems : started
+2023-09-01-12:34:00 INFO  BaseTest : removeDriver : removed driver
+2023-09-01-12:38:14 INFO  BaseTest : setDriver :  Spark report configured
+2023-09-01-12:38:14 INFO  BaseTest : getBrowserType : Headless chrome configured
+2023-09-01-12:38:15 INFO  BaseTest : setDriver : driver object assigned
+2023-09-01-12:38:15 INFO  LoginPage : loginToApp : started
+2023-09-01-12:38:17 INFO  BaseTest: setup : userMenuDropDown_TC06Test Object for reporting is created
+2023-09-01-12:38:20 INFO  UserMenuPage : verifyUserMenuItems : started
+2023-09-01-12:38:53 INFO  BaseTest : removeDriver : removed driver
+2023-09-01-12:42:47 INFO  BaseTest : setDriver :  Spark report configured
+2023-09-01-12:42:47 INFO  BaseTest : getBrowserType : Headless chrome configured
+2023-09-01-12:42:48 INFO  BaseTest : setDriver : driver object assigned
+2023-09-01-12:42:48 INFO  LoginPage : loginToApp : started
+2023-09-01-12:42:49 INFO  BaseTest: setup : userMenuDropDown_TC08Test Object for reporting is created
+2023-09-01-12:42:51 INFO  UserMenuPage : verifyUserMenuItems : started
+2023-09-01-12:42:51 INFO  BaseTest : removeDriver : removed driver
+2023-09-01-13:06:16 INFO  BaseTest : setDriver :  Spark report configured
+2023-09-01-13:06:16 INFO  BaseTest : getBrowserType : Headless chrome configured
+2023-09-01-13:06:18 INFO  BaseTest : setDriver : driver object assigned
+2023-09-01-13:06:18 INFO  LoginPage : loginToApp : started
+2023-09-01-13:06:20 INFO  BaseTest: setup : userMenuDropDown_TC08Test Object for reporting is created
+2023-09-01-13:06:21 INFO  UserMenuPage : verifyUserMenuItems : started
+2023-09-01-13:06:22 INFO  BaseTest : removeDriver : removed driver
+2023-09-01-18:30:55 INFO  BaseTest : setDriver :  Spark report configured
+2023-09-01-18:30:55 INFO  BaseTest : getBrowserType : Headless chrome configured
+2023-09-01-18:30:58 INFO  BaseTest : setDriver : driver object assigned
+2023-09-01-18:30:58 INFO  LoginPage : loginToApp : started
+2023-09-01-18:31:03 INFO  BaseTest: setup : userMenuDropDown_TC08Test Object for reporting is created
+2023-09-01-18:31:05 INFO  UserMenuPage : verifyUserMenuItems : started
+2023-09-01-18:31:05 INFO  BaseTest : removeDriver : removed driver
+2023-09-01-19:50:11 INFO  BaseTest : setDriver :  Spark report configured
+2023-09-01-19:50:11 INFO  BaseTest : getBrowserType : Headless chrome configured
+2023-09-01-19:50:13 INFO  BaseTest : setDriver : driver object assigned
+2023-09-01-19:50:13 INFO  BaseTest: setup : userMenuDropDown_TC08Test Object for reporting is created
+2023-09-01-19:50:13 INFO  LoginPage : loginToApp : started
+2023-09-01-19:50:20 INFO  UserMenuPage : verifyUserMenuItems : started
+2023-09-01-19:50:20 INFO  BaseTest : removeDriver : removed driver
+2023-09-01-20:03:54 INFO  BaseTest : setDriver :  Spark report configured
+2023-09-01-20:03:54 INFO  BaseTest : getBrowserType : Headless chrome configured
+2023-09-01-20:03:56 INFO  BaseTest : setDriver : driver object assigned
+2023-09-01-20:03:56 INFO  BaseTest: setup : userMenuDropDown_TC08Test Object for reporting is created
+2023-09-01-20:03:56 INFO  LoginPage : loginToApp : started
+2023-09-01-20:03:59 INFO  UserMenuPage : verifyUserMenuItems : started
+2023-09-01-20:04:00 INFO  BaseTest : removeDriver : removed driver
+2023-09-01-20:10:19 INFO  BaseTest : setDriver :  Spark report configured
+2023-09-01-20:10:19 INFO  BaseTest : getBrowserType : Headless chrome configured
+2023-09-01-20:10:21 INFO  BaseTest : setDriver : driver object assigned
+2023-09-01-20:10:21 INFO  BaseTest: setup : userMenuDropDown_TC06Test Object for reporting is created
+2023-09-01-20:10:21 INFO  LoginPage : loginToApp : started
+2023-09-01-20:10:24 INFO  UserMenuPage : verifyUserMenuItems : started
+2023-09-01-20:11:01 INFO  BaseTest: setup : userMenuDropDown_TC08Test Object for reporting is created
+2023-09-01-20:11:01 INFO  LoginPage : loginToApp : started
+2023-09-01-20:11:02 INFO  UserMenuPage : verifyUserMenuItems : started
+2023-09-01-20:11:02 INFO  BaseTest : removeDriver : removed driver
+2023-09-02-18:47:35 INFO  BaseTest : setDriver :  Spark report configured
+2023-09-02-18:47:35 INFO  BaseTest : getBrowserType : Headless chrome configured
+2023-09-02-18:47:37 INFO  BaseTest : setDriver : driver object assigned
+2023-09-02-18:47:37 INFO  BaseTest: setup : userMenuDropDown_TC06Test Object for reporting is created
+2023-09-02-18:47:37 INFO  LoginPage : loginToApp : started
+2023-09-02-18:47:44 INFO  UserMenuPage : verifyUserMenuItems : started
+2023-09-02-18:48:21 INFO  BaseTest: setup : userMenuDropDown_TC08Test Object for reporting is created
+2023-09-02-18:48:21 INFO  LoginPage : loginToApp : started
+2023-09-02-18:48:23 INFO  UserMenuPage : verifyUserMenuItems : started
+2023-09-02-18:48:23 INFO  BaseTest : removeDriver : removed driver
+2023-09-03-21:38:42 INFO  BaseTest : setDriver :  Spark report configured
+2023-09-03-21:38:45 INFO  BaseTest : getBrowserType : Chrome configured
+2023-09-03-21:38:45 INFO  BaseTest : setDriver : driver object assigned
+2023-09-03-21:38:45 INFO  BaseTest: setup : userMenuDropDown_TC06Test Object for reporting is created
+2023-09-03-21:38:45 INFO  LoginPage : loginToApp : started
+2023-09-03-21:38:49 INFO  UserMenuPage : verifyUserMenuItems : started
+2023-09-03-21:39:27 INFO  BaseTest: setup : userMenuDropDown_TC08Test Object for reporting is created
+2023-09-03-21:39:27 INFO  LoginPage : loginToApp : started
+2023-09-03-21:39:29 INFO  UserMenuPage : verifyUserMenuItems : started
+2023-09-03-21:39:29 INFO  BaseTest: setup : userMenuDropDown_TC09Test Object for reporting is created
+2023-09-03-21:39:29 INFO  LoginPage : loginToApp : started
+2023-09-03-21:39:31 INFO  UserMenuPage : verifyUserMenuItems : started
+2023-09-03-21:39:31 INFO  Selected Logout button
+2023-09-03-21:39:31 INFO  BaseTest : removeDriver : removed driver
+2023-09-04-00:41:15 INFO  BaseTest : setDriver :  Spark report configured
+2023-09-04-00:41:17 INFO  BaseTest : getBrowserType : Chrome configured
+2023-09-04-00:41:17 INFO  BaseTest : setDriver : driver object assigned
+2023-09-04-00:41:17 INFO  BaseTest: setup : accountsTest_TC10Test Object for reporting is created
+2023-09-04-00:41:17 INFO  LoginPage : loginToApp : started
+2023-09-04-00:41:20 INFO  Selecting accounts from Tab
+2023-09-04-00:41:22 INFO  Clicking new button
+2023-09-04-00:41:23 INFO  BaseTest : removeDriver : removed driver
+2023-09-04-00:47:46 INFO  BaseTest : setDriver :  Spark report configured
+2023-09-04-00:47:48 INFO  BaseTest : getBrowserType : Chrome configured
+2023-09-04-00:47:48 INFO  BaseTest : setDriver : driver object assigned
+2023-09-04-00:47:48 INFO  BaseTest: setup : accountsTest_TC10Test Object for reporting is created
+2023-09-04-00:47:48 INFO  LoginPage : loginToApp : started
+2023-09-04-00:47:51 INFO  Selecting accounts from Tab
+2023-09-04-00:47:53 INFO  Clicking new button
+2023-09-04-00:47:54 INFO  BaseTest : removeDriver : removed driver
+2023-09-04-01:03:22 INFO  BaseTest : setDriver :  Spark report configured
+2023-09-04-01:03:24 INFO  BaseTest : getBrowserType : Chrome configured
+2023-09-04-01:03:24 INFO  BaseTest : setDriver : driver object assigned
+2023-09-04-01:03:24 INFO  BaseTest: setup : accountsTest_TC10Test Object for reporting is created
+2023-09-04-01:03:24 INFO  LoginPage : loginToApp : started
+2023-09-04-01:03:25 INFO  Selecting accounts from Tab
+2023-09-04-01:03:30 INFO  Clicking new button
+2023-09-04-01:03:31 INFO  BaseTest : removeDriver : removed driver
+2023-09-04-01:06:22 INFO  BaseTest : setDriver :  Spark report configured
+2023-09-04-01:06:22 INFO  BaseTest : getBrowserType : Headless chrome configured
+2023-09-04-01:06:24 INFO  BaseTest : setDriver : driver object assigned
+2023-09-04-01:06:24 INFO  BaseTest: setup : accountsTest_TC10Test Object for reporting is created
+2023-09-04-01:06:24 INFO  LoginPage : loginToApp : started
+2023-09-04-01:06:27 INFO  Selecting accounts from Tab
+2023-09-04-01:06:28 INFO  BaseTest: setup : accountsTest_TC10Test Object for reporting is created
+2023-09-04-01:06:28 INFO  LoginPage : loginToApp : started
+2023-09-04-01:06:30 INFO  Selecting accounts from Tab
+2023-09-04-01:06:32 INFO  Clicking new button
+2023-09-04-01:06:33 INFO  BaseTest: setup : accountsTest_TC10Test Object for reporting is created
+2023-09-04-01:06:33 INFO  LoginPage : loginToApp : started
+2023-09-04-01:06:33 INFO  Selecting accounts from Tab
+2023-09-04-01:06:33 INFO  BaseTest : removeDriver : removed driver
+2023-09-04-01:08:20 INFO  BaseTest : setDriver :  Spark report configured
+2023-09-04-01:08:20 INFO  BaseTest : getBrowserType : Headless chrome configured
+2023-09-04-01:08:21 INFO  BaseTest : setDriver : driver object assigned
+2023-09-04-01:08:21 INFO  BaseTest: setup : accountsTest_TC10Test Object for reporting is created
+2023-09-04-01:08:21 INFO  LoginPage : loginToApp : started
+2023-09-04-01:08:23 INFO  Selecting accounts from Tab
+2023-09-04-01:08:23 INFO  BaseTest : removeDriver : removed driver
+2023-09-04-01:08:50 INFO  BaseTest : setDriver :  Spark report configured
+2023-09-04-01:08:50 INFO  BaseTest : getBrowserType : Headless chrome configured
+2023-09-04-01:08:51 INFO  BaseTest : setDriver : driver object assigned
+2023-09-04-01:08:51 INFO  BaseTest: setup : accountsTest_TC10Test Object for reporting is created
+2023-09-04-01:08:51 INFO  LoginPage : loginToApp : started
+2023-09-04-01:08:54 INFO  Selecting accounts from Tab
+2023-09-04-01:08:54 INFO  BaseTest : removeDriver : removed driver
+2023-09-04-01:09:05 INFO  BaseTest : setDriver :  Spark report configured
+2023-09-04-01:09:05 INFO  BaseTest : getBrowserType : Headless chrome configured
+2023-09-04-01:09:06 INFO  BaseTest : setDriver : driver object assigned
+2023-09-04-01:09:07 INFO  BaseTest: setup : accountsTest_TC10Test Object for reporting is created
+2023-09-04-01:09:07 INFO  LoginPage : loginToApp : started
+2023-09-04-01:09:08 INFO  Selecting accounts from Tab
+2023-09-04-01:09:08 INFO  BaseTest : removeDriver : removed driver
+2023-09-04-01:09:25 INFO  BaseTest : setDriver :  Spark report configured
+2023-09-04-01:09:26 INFO  BaseTest : getBrowserType : Chrome configured
+2023-09-04-01:09:26 INFO  BaseTest : setDriver : driver object assigned
+2023-09-04-01:09:26 INFO  BaseTest: setup : accountsTest_TC10Test Object for reporting is created
+2023-09-04-01:09:26 INFO  LoginPage : loginToApp : started
+2023-09-04-01:09:29 INFO  Selecting accounts from Tab
+2023-09-04-01:09:32 INFO  Clicking new button
+2023-09-04-01:09:33 INFO  BaseTest : removeDriver : removed driver
+2023-09-04-01:11:01 INFO  BaseTest : setDriver :  Spark report configured
+2023-09-04-01:11:03 INFO  BaseTest : getBrowserType : Chrome configured
+2023-09-04-01:11:03 INFO  BaseTest : setDriver : driver object assigned
+2023-09-04-01:11:03 INFO  BaseTest: setup : accountsTest_TC10Test Object for reporting is created
+2023-09-04-01:11:03 INFO  LoginPage : loginToApp : started
+2023-09-04-01:11:06 INFO  Selecting accounts from Tab
+2023-09-04-01:11:10 INFO  Clicking new button
+2023-09-04-01:11:10 INFO  BaseTest: setup : accountsTest_TC10Test Object for reporting is created
+2023-09-04-01:11:10 INFO  LoginPage : loginToApp : started
+2023-09-04-01:11:12 INFO  Selecting accounts from Tab
+2023-09-04-01:11:13 INFO  Clicking new button
+2023-09-04-01:11:13 INFO  BaseTest: setup : accountsTest_TC10Test Object for reporting is created
+2023-09-04-01:11:13 INFO  LoginPage : loginToApp : started
+2023-09-04-01:11:14 INFO  Selecting accounts from Tab
+2023-09-04-01:11:16 INFO  Clicking new button
+2023-09-04-01:11:16 INFO  BaseTest : removeDriver : removed driver
+2023-09-04-01:11:47 INFO  BaseTest : setDriver :  Spark report configured
+2023-09-04-01:11:47 INFO  BaseTest : getBrowserType : Headless chrome configured
+2023-09-04-01:11:49 INFO  BaseTest : setDriver : driver object assigned
+2023-09-04-01:11:49 INFO  BaseTest: setup : accountsTest_TC10Test Object for reporting is created
+2023-09-04-01:11:49 INFO  LoginPage : loginToApp : started
+2023-09-04-01:11:51 INFO  Selecting accounts from Tab
+2023-09-04-01:11:51 INFO  BaseTest: setup : accountsTest_TC10Test Object for reporting is created
+2023-09-04-01:11:51 INFO  LoginPage : loginToApp : started
+2023-09-04-01:11:52 INFO  Selecting accounts from Tab
+2023-09-04-01:11:52 INFO  BaseTest: setup : accountsTest_TC10Test Object for reporting is created
+2023-09-04-01:11:52 INFO  LoginPage : loginToApp : started
+2023-09-04-01:11:54 INFO  Selecting accounts from Tab
+2023-09-04-01:11:55 INFO  BaseTest : removeDriver : removed driver

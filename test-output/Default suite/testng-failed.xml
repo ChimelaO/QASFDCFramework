@@ -5,10 +5,11 @@
     <classes>
       <class name="tests.UserMenuTest">
         <methods>
-          <include name="userMenuDropDown_TC08" invocation-numbers="0"/>
+          <include name="userMenuDropDown_TC08"/>
           <include name="removeDriver"/>
           <include name="setDriver"/>
           <include name="navigateToHome"/>
+          <include name="tearDown"/>
           <include name="setup"/>
         </methods>
       </class> <!-- tests.UserMenuTest -->
