@@ -7,6 +7,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -33,6 +34,21 @@ public class CommonUtils {
 		}
 		
 		return isElementClickable;
+	}
+	
+	public static boolean waitForAlert(WebDriver driver, Alert alert) {
+		boolean isAlertPresent = false;
+		WebDriverWait wait = new WebDriverWait(driver, WaitConstants.WAIT_FOR_ELEMENT);
+		
+		try {
+			wait.until(ExpectedConditions.alertIsPresent());
+			isAlertPresent = true;
+		} catch (Exception e) {
+			// TODO: handle exception
+			e.printStackTrace();
+		}
+		
+		return isAlertPresent;
 	}
 	
 	public static boolean waitForElementToDisappear(WebDriver driver, WebElement element) {

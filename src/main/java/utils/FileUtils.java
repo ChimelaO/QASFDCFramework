@@ -31,5 +31,43 @@ public class FileUtils {
 		return p.getProperty(key);
 		
 	}
+	
+	public static String readAccountTestData(String key) throws IOException{
+		File f = new File(FileConstants.ACCOUNT_TESTDATA_FILE_PATH);
+		FileReader fr = new FileReader(f);
+		Properties p = new Properties();
+		p.load(fr);
+		return p.getProperty(key);
+		
+	}
+	
+	public static String readOpportunitiesTestData(String key) throws IOException{
+		File f = new File(FileConstants.OPPORTUNITIES_TESTDATA_FILE_PATH);
+		FileReader fr = new FileReader(f);
+		Properties p = new Properties();
+		p.load(fr);
+		return p.getProperty(key);
+		
+	}
+	
+	public static String readLeadsTestData(String key) throws IOException{
+		File f = new File(FileConstants.LEADS_TESTDATA_FILE_PATH);
+		FileReader fr = new FileReader(f);
+		Properties p = new Properties();
+		p.load(fr);
+		return p.getProperty(key);
+		
+	}
+	
+	public static String readContactsTestData(String key) throws IOException{
+		File f = new File(FileConstants.CONTACTS_TESTDATA_FILE_PATH);
+		FileReader fr = new FileReader(f);
+		Properties p = new Properties();
+		p.load(fr);
+		return p.getProperty(key);
+		
+	}
+	
+	
 
 }
