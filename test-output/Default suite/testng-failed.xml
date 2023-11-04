@@ -3,16 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.UserMenuTest">
+      <class name="apitests.LogintTest">
         <methods>
-          <include name="userMenuDropDown_TC08"/>
-          <include name="removeDriver"/>
-          <include name="setDriver"/>
-          <include name="navigateToHome"/>
-          <include name="tearDown"/>
-          <include name="setup"/>
+          <include name="setURI"/>
+          <include name="updateData_TC04"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- tests.UserMenuTest -->
+      </class> <!-- apitests.LogintTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

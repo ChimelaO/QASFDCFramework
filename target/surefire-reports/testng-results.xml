@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-13T03:17:37 CDT" name="Suite" finished-at="2023-10-13T03:18:04 CDT" duration-ms="26769">
+    <groups>
+    </groups>
+    <test started-at="2023-10-13T03:17:37 CDT" name="Test" finished-at="2023-10-13T03:18:04 CDT" duration-ms="26769">
+      <class name="tests.OpportunitiesTest">
+        <test-method is-config="true" signature="configureReport()[pri:0, instance:tests.OpportunitiesTest@4a9cc6cb]" started-at="2023-10-13T03:17:37 CDT" name="configureReport" finished-at="2023-10-13T03:17:37 CDT" duration-ms="140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureReport -->
+        <test-method is-config="true" signature="setDriver(java.lang.String,boolean)[pri:0, instance:tests.OpportunitiesTest@4a9cc6cb]" started-at="2023-10-13T03:17:37 CDT" name="setDriver" finished-at="2023-10-13T03:17:40 CDT" duration-ms="2619" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.OpportunitiesTest@4a9cc6cb]" started-at="2023-10-13T03:17:40 CDT" name="setup" finished-at="2023-10-13T03:17:45 CDT" duration-ms="5502" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.OpportunitiesTest.opportunitiesTest_TC15(java.lang.reflect.Method) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="opportunitiesTest_TC15(java.lang.reflect.Method)[pri:0, instance:tests.OpportunitiesTest@4a9cc6cb]" started-at="2023-10-13T03:17:45 CDT" name="opportunitiesTest_TC15" finished-at="2023-10-13T03:17:48 CDT" duration-ms="3029" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.OpportunitiesTest.opportunitiesTest_TC15(java.lang.reflect.Method) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- opportunitiesTest_TC15 -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.OpportunitiesTest@4a9cc6cb]" started-at="2023-10-13T03:17:48 CDT" name="setup" finished-at="2023-10-13T03:17:50 CDT" duration-ms="1742" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.OpportunitiesTest.opportunitiesTest_TC16(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="opportunitiesTest_TC16(java.lang.reflect.Method)[pri:0, instance:tests.OpportunitiesTest@4a9cc6cb]" started-at="2023-10-13T03:17:50 CDT" name="opportunitiesTest_TC16" finished-at="2023-10-13T03:17:53 CDT" duration-ms="3234" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.OpportunitiesTest.opportunitiesTest_TC16(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- opportunitiesTest_TC16 -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.OpportunitiesTest@4a9cc6cb]" started-at="2023-10-13T03:17:53 CDT" name="setup" finished-at="2023-10-13T03:17:55 CDT" duration-ms="1358" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.OpportunitiesTest.opportunitiesTest_TC17(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="opportunitiesTest_TC17(java.lang.reflect.Method)[pri:0, instance:tests.OpportunitiesTest@4a9cc6cb]" started-at="2023-10-13T03:17:55 CDT" name="opportunitiesTest_TC17" finished-at="2023-10-13T03:17:57 CDT" duration-ms="2767" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.OpportunitiesTest.opportunitiesTest_TC17(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- opportunitiesTest_TC17 -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.OpportunitiesTest@4a9cc6cb]" started-at="2023-10-13T03:17:57 CDT" name="setup" finished-at="2023-10-13T03:17:58 CDT" duration-ms="1063" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.OpportunitiesTest.opportunitiesTest_TC18(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="opportunitiesTest_TC18(java.lang.reflect.Method)[pri:0, instance:tests.OpportunitiesTest@4a9cc6cb]" started-at="2023-10-13T03:17:58 CDT" name="opportunitiesTest_TC18" finished-at="2023-10-13T03:18:01 CDT" duration-ms="2200" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.OpportunitiesTest.opportunitiesTest_TC18(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- opportunitiesTest_TC18 -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.OpportunitiesTest@4a9cc6cb]" started-at="2023-10-13T03:18:01 CDT" name="setup" finished-at="2023-10-13T03:18:02 CDT" duration-ms="947" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.OpportunitiesTest.opportunitiesTest_TC19(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="opportunitiesTest_TC19(java.lang.reflect.Method)[pri:0, instance:tests.OpportunitiesTest@4a9cc6cb]" started-at="2023-10-13T03:18:02 CDT" name="opportunitiesTest_TC19" finished-at="2023-10-13T03:18:04 CDT" duration-ms="1905" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.OpportunitiesTest.opportunitiesTest_TC19(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- opportunitiesTest_TC19 -->
+        <test-method is-config="true" signature="removeDriver()[pri:0, instance:tests.OpportunitiesTest@4a9cc6cb]" started-at="2023-10-13T03:18:04 CDT" name="removeDriver" finished-at="2023-10-13T03:18:04 CDT" duration-ms="364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeDriver -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.OpportunitiesTest@4a9cc6cb]" started-at="2023-10-13T03:18:04 CDT" name="tearDown" finished-at="2023-10-13T03:18:04 CDT" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.OpportunitiesTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

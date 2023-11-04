@@ -1219,3 +1219,260 @@
 2023-09-14-21:29:37 INFO  BaseTest: setup : contactsTest_TC32Test Object for reporting is created
 2023-09-14-21:29:37 INFO  LoginPage : loginToApp : started
 2023-09-14-21:29:44 INFO  BaseTest : removeDriver : removed driver
+2023-10-09-23:40:08 INFO  BaseTest : setDriver :  Spark report configured
+2023-10-09-23:40:12 INFO  BaseTest : getBrowserType : Chrome configured
+2023-10-09-23:40:12 INFO  BaseTest : setDriver : driver object assigned
+2023-10-09-23:40:12 INFO  BaseTest: setup : contactsTest_TC25Test Object for reporting is created
+2023-10-09-23:40:12 INFO  LoginPage : loginToApp : started
+2023-10-09-23:40:19 INFO  BaseTest: setup : contactsTest_TC26Test Object for reporting is created
+2023-10-09-23:40:19 INFO  LoginPage : loginToApp : started
+2023-10-09-23:40:22 INFO  BaseTest : removeDriver : removed driver
+2023-10-09-23:42:41 INFO  BaseTest : setDriver :  Spark report configured
+2023-10-09-23:42:42 INFO  BaseTest : getBrowserType : Headless chrome configured
+2023-10-09-23:42:43 INFO  BaseTest : setDriver : driver object assigned
+2023-10-09-23:42:43 INFO  BaseTest: setup : contactsTest_TC25Test Object for reporting is created
+2023-10-09-23:42:43 INFO  LoginPage : loginToApp : started
+2023-10-09-23:42:53 INFO  BaseTest: setup : contactsTest_TC26Test Object for reporting is created
+2023-10-09-23:42:53 INFO  LoginPage : loginToApp : started
+2023-10-09-23:42:56 INFO  BaseTest: setup : contactsTest_TC27Test Object for reporting is created
+2023-10-09-23:42:56 INFO  LoginPage : loginToApp : started
+2023-10-09-23:42:58 INFO  Selecting recently created
+2023-10-09-23:42:58 INFO  BaseTest: setup : contactsTest_TC28Test Object for reporting is created
+2023-10-09-23:42:58 INFO  LoginPage : loginToApp : started
+2023-10-09-23:43:00 INFO  Selecting my contacts
+2023-10-09-23:43:00 INFO  BaseTest: setup : contactsTest_TC29Test Object for reporting is created
+2023-10-09-23:43:00 INFO  LoginPage : loginToApp : started
+2023-10-09-23:43:03 INFO  BaseTest: setup : contactsTest_TC30Test Object for reporting is created
+2023-10-09-23:43:03 INFO  LoginPage : loginToApp : started
+2023-10-09-23:43:05 INFO  Validating error message
+2023-10-09-23:43:05 INFO  BaseTest: setup : contactsTest_TC31Test Object for reporting is created
+2023-10-09-23:43:05 INFO  LoginPage : loginToApp : started
+2023-10-09-23:43:07 INFO  BaseTest: setup : contactsTest_TC32Test Object for reporting is created
+2023-10-09-23:43:07 INFO  LoginPage : loginToApp : started
+2023-10-09-23:43:09 INFO  BaseTest : removeDriver : removed driver
+2023-10-10-11:41:02 INFO  BaseTest : setDriver :  Spark report configured
+2023-10-10-11:41:02 INFO  BaseTest : getBrowserType : Headless chrome configured
+2023-10-10-11:41:05 INFO  BaseTest : setDriver : driver object assigned
+2023-10-10-11:41:05 INFO  BaseTest : setup : opportunitiesTest_TC15 Test Object for reporting is created
+2023-10-10-11:41:25 INFO  Selecting opportunities
+2023-10-10-11:41:25 INFO  BaseTest : removeDriver : removed driver
+2023-10-10-11:41:25 INFO  BaseTest : setDriver :  Spark report configured
+2023-10-10-11:41:25 INFO  BaseTest : getBrowserType : Headless chrome configured
+2023-10-10-11:41:26 INFO  BaseTest : setDriver : driver object assigned
+2023-10-10-11:41:26 INFO  BaseTest : setup : opportunitiesTest_TC16 Test Object for reporting is created
+2023-10-10-11:41:46 INFO  Selecting opportunities
+2023-10-10-11:41:46 INFO  BaseTest : removeDriver : removed driver
+2023-10-10-11:41:46 INFO  BaseTest : setDriver :  Spark report configured
+2023-10-10-11:41:46 INFO  BaseTest : getBrowserType : Headless chrome configured
+2023-10-10-11:41:47 INFO  BaseTest : setDriver : driver object assigned
+2023-10-10-11:41:47 INFO  BaseTest : setup : opportunitiesTest_TC17 Test Object for reporting is created
+2023-10-10-11:42:07 INFO  Selecting opportunities
+2023-10-10-11:42:07 INFO  BaseTest : removeDriver : removed driver
+2023-10-10-11:42:07 INFO  BaseTest : setDriver :  Spark report configured
+2023-10-10-11:42:07 INFO  BaseTest : getBrowserType : Headless chrome configured
+2023-10-10-11:42:08 INFO  BaseTest : setDriver : driver object assigned
+2023-10-10-11:42:08 INFO  BaseTest : setup : opportunitiesTest_TC18 Test Object for reporting is created
+2023-10-10-11:42:28 INFO  Selecting opportunities
+2023-10-10-11:42:28 INFO  BaseTest : removeDriver : removed driver
+2023-10-10-11:42:28 INFO  BaseTest : setDriver :  Spark report configured
+2023-10-10-11:42:28 INFO  BaseTest : getBrowserType : Headless chrome configured
+2023-10-10-11:42:29 INFO  BaseTest : setDriver : driver object assigned
+2023-10-10-11:42:29 INFO  BaseTest : setup : opportunitiesTest_TC19 Test Object for reporting is created
+2023-10-10-11:42:49 INFO  Selecting opportunities
+2023-10-10-11:42:49 INFO  BaseTest : removeDriver : removed driver
+2023-10-10-11:51:12 INFO  BaseTest : setDriver :  Spark report configured
+2023-10-10-11:51:12 INFO  BaseTest : getBrowserType : Headless chrome configured
+2023-10-10-11:51:14 INFO  BaseTest : setDriver : driver object assigned
+2023-10-10-11:51:14 INFO  BaseTest : setup : opportunitiesTest_TC15 Test Object for reporting is created
+2023-10-10-11:51:34 INFO  Selecting opportunities
+2023-10-10-11:51:34 INFO  BaseTest : removeDriver : removed driver
+2023-10-10-11:51:34 INFO  BaseTest : setDriver :  Spark report configured
+2023-10-10-11:51:34 INFO  BaseTest : getBrowserType : Headless chrome configured
+2023-10-10-11:51:35 INFO  BaseTest : setDriver : driver object assigned
+2023-10-10-11:51:35 INFO  BaseTest : setup : opportunitiesTest_TC16 Test Object for reporting is created
+2023-10-10-11:51:55 INFO  Selecting opportunities
+2023-10-10-11:51:55 INFO  BaseTest : removeDriver : removed driver
+2023-10-10-11:51:55 INFO  BaseTest : setDriver :  Spark report configured
+2023-10-10-11:51:55 INFO  BaseTest : getBrowserType : Headless chrome configured
+2023-10-10-11:51:56 INFO  BaseTest : setDriver : driver object assigned
+2023-10-10-11:51:56 INFO  BaseTest : setup : opportunitiesTest_TC17 Test Object for reporting is created
+2023-10-10-11:52:16 INFO  Selecting opportunities
+2023-10-10-11:52:16 INFO  BaseTest : removeDriver : removed driver
+2023-10-10-11:52:16 INFO  BaseTest : setDriver :  Spark report configured
+2023-10-10-11:52:16 INFO  BaseTest : getBrowserType : Headless chrome configured
+2023-10-10-11:52:17 INFO  BaseTest : setDriver : driver object assigned
+2023-10-10-11:52:17 INFO  BaseTest : setup : opportunitiesTest_TC18 Test Object for reporting is created
+2023-10-10-11:52:37 INFO  Selecting opportunities
+2023-10-10-11:52:37 INFO  BaseTest : removeDriver : removed driver
+2023-10-10-11:52:37 INFO  BaseTest : setDriver :  Spark report configured
+2023-10-10-11:52:37 INFO  BaseTest : getBrowserType : Headless chrome configured
+2023-10-10-11:52:38 INFO  BaseTest : setDriver : driver object assigned
+2023-10-10-11:52:38 INFO  BaseTest : setup : opportunitiesTest_TC19 Test Object for reporting is created
+2023-10-10-11:52:58 INFO  Selecting opportunities
+2023-10-10-11:52:58 INFO  BaseTest : removeDriver : removed driver
+2023-10-10-11:53:03 INFO  BaseTest : setDriver :  Spark report configured
+2023-10-10-11:53:03 INFO  BaseTest : getBrowserType : Headless chrome configured
+2023-10-10-11:53:05 INFO  BaseTest : setDriver : driver object assigned
+2023-10-10-11:53:05 INFO  BaseTest : setup : contactsTest_TC25 Test Object for reporting is created
+2023-10-10-11:53:25 INFO  BaseTest : removeDriver : removed driver
+2023-10-10-11:53:25 INFO  BaseTest : setDriver :  Spark report configured
+2023-10-10-11:53:25 INFO  BaseTest : getBrowserType : Headless chrome configured
+2023-10-10-11:53:26 INFO  BaseTest : setDriver : driver object assigned
+2023-10-10-11:53:26 INFO  BaseTest : setup : contactsTest_TC26 Test Object for reporting is created
+2023-10-10-11:53:46 INFO  BaseTest : removeDriver : removed driver
+2023-10-10-11:53:46 INFO  BaseTest : setDriver :  Spark report configured
+2023-10-10-11:53:46 INFO  BaseTest : getBrowserType : Headless chrome configured
+2023-10-10-11:53:47 INFO  BaseTest : setDriver : driver object assigned
+2023-10-10-11:53:47 INFO  BaseTest : setup : contactsTest_TC27 Test Object for reporting is created
+2023-10-10-11:54:07 INFO  BaseTest : removeDriver : removed driver
+2023-10-10-11:54:07 INFO  BaseTest : setDriver :  Spark report configured
+2023-10-10-11:54:07 INFO  BaseTest : getBrowserType : Headless chrome configured
+2023-10-10-11:54:08 INFO  BaseTest : setDriver : driver object assigned
+2023-10-10-11:54:08 INFO  BaseTest : setup : contactsTest_TC28 Test Object for reporting is created
+2023-10-10-11:54:28 INFO  BaseTest : removeDriver : removed driver
+2023-10-10-11:54:28 INFO  BaseTest : setDriver :  Spark report configured
+2023-10-10-11:54:28 INFO  BaseTest : getBrowserType : Headless chrome configured
+2023-10-10-11:54:29 INFO  BaseTest : setDriver : driver object assigned
+2023-10-10-11:54:29 INFO  BaseTest : setup : contactsTest_TC29 Test Object for reporting is created
+2023-10-10-11:54:49 INFO  BaseTest : removeDriver : removed driver
+2023-10-10-11:54:49 INFO  BaseTest : setDriver :  Spark report configured
+2023-10-10-11:54:49 INFO  BaseTest : getBrowserType : Headless chrome configured
+2023-10-10-11:54:50 INFO  BaseTest : setDriver : driver object assigned
+2023-10-10-11:54:50 INFO  BaseTest : setup : contactsTest_TC30 Test Object for reporting is created
+2023-10-10-11:55:10 INFO  BaseTest : removeDriver : removed driver
+2023-10-10-11:55:10 INFO  BaseTest : setDriver :  Spark report configured
+2023-10-10-11:55:10 INFO  BaseTest : getBrowserType : Headless chrome configured
+2023-10-10-11:55:11 INFO  BaseTest : setDriver : driver object assigned
+2023-10-10-11:55:11 INFO  BaseTest : setup : contactsTest_TC31 Test Object for reporting is created
+2023-10-10-11:55:31 INFO  BaseTest : removeDriver : removed driver
+2023-10-10-11:55:31 INFO  BaseTest : setDriver :  Spark report configured
+2023-10-10-11:55:31 INFO  BaseTest : getBrowserType : Headless chrome configured
+2023-10-10-11:55:32 INFO  BaseTest : setDriver : driver object assigned
+2023-10-10-11:55:32 INFO  BaseTest : setup : contactsTest_TC32 Test Object for reporting is created
+2023-10-10-11:55:52 INFO  BaseTest : removeDriver : removed driver
+2023-10-10-11:57:18 INFO  BaseTest : setDriver :  Spark report configured
+2023-10-10-11:57:18 INFO  BaseTest : getBrowserType : Headless chrome configured
+2023-10-10-11:57:20 INFO  BaseTest : setDriver : driver object assigned
+2023-10-10-11:57:20 INFO  BaseTest: setup : opportunitiesTest_TC15Test Object for reporting is created
+2023-10-10-11:57:20 INFO  LoginPage : loginToApp : started
+2023-10-10-11:57:29 INFO  Selecting opportunities
+2023-10-10-11:57:30 INFO  OpportunitiesPage : verifyOpportunitiesDropdownItems : started
+2023-10-10-11:57:30 INFO  Option: All Opportunities || Actual Option: All Opportunities
+2023-10-10-11:57:30 INFO  Option: Closing Next Month || Actual Option: Closing Next Month
+2023-10-10-11:57:30 INFO  Option: Closing This Month || Actual Option: Closing This Month
+2023-10-10-11:57:30 INFO  Option: My Opportunities || Actual Option: My Opportunities
+2023-10-10-11:57:30 INFO  Option: New Last Week || Actual Option: New Last Week
+2023-10-10-11:57:30 INFO  Option: New This Week || Actual Option: New This Week
+2023-10-10-11:57:30 INFO  Option: Opportunity Pipeline || Actual Option: Opportunity Pipeline
+2023-10-10-11:57:30 INFO  Option: Private || Actual Option: Private
+2023-10-10-11:57:30 INFO  Option: Recently Viewed Opportunities || Actual Option: Recently Viewed Opportunities
+2023-10-10-11:57:31 INFO  Option: Won || Actual Option: Won
+2023-10-10-11:57:31 INFO  BaseTest: setup : opportunitiesTest_TC16Test Object for reporting is created
+2023-10-10-11:57:31 INFO  LoginPage : loginToApp : started
+2023-10-10-11:57:32 INFO  Selecting opportunities
+2023-10-10-11:57:33 INFO  BaseTest: setup : opportunitiesTest_TC17Test Object for reporting is created
+2023-10-10-11:57:33 INFO  LoginPage : loginToApp : started
+2023-10-10-11:57:34 INFO  Selecting opportunities
+2023-10-10-11:57:35 INFO  BaseTest: setup : opportunitiesTest_TC18Test Object for reporting is created
+2023-10-10-11:57:35 INFO  LoginPage : loginToApp : started
+2023-10-10-11:57:37 INFO  Selecting opportunities
+2023-10-10-11:57:37 INFO  BaseTest: setup : opportunitiesTest_TC19Test Object for reporting is created
+2023-10-10-11:57:37 INFO  LoginPage : loginToApp : started
+2023-10-10-11:57:39 INFO  Selecting opportunities
+2023-10-10-11:57:39 INFO  BaseTest : removeDriver : removed driver
+2023-10-10-18:13:55 INFO  BaseTest : setDriver :  Spark report configured
+2023-10-10-18:13:55 INFO  BaseTest : getBrowserType : Headless chrome configured
+2023-10-10-18:13:57 INFO  BaseTest : setDriver : driver object assigned
+2023-10-10-18:13:57 INFO  BaseTest: setup : opportunitiesTest_TC15Test Object for reporting is created
+2023-10-10-18:13:57 INFO  LoginPage : loginToApp : started
+2023-10-10-18:14:02 INFO  BaseTest : removeDriver : removed driver
+2023-10-10-18:17:08 INFO  BaseTest : setDriver :  Spark report configured
+2023-10-10-18:17:08 INFO  BaseTest : getBrowserType : Headless chrome configured
+2023-10-10-18:17:10 INFO  BaseTest : setDriver : driver object assigned
+2023-10-10-18:17:10 INFO  BaseTest: setup : opportunitiesTest_TC15Test Object for reporting is created
+2023-10-10-18:17:10 INFO  LoginPage : loginToApp : started
+2023-10-10-18:17:14 INFO  Selecting opportunities
+2023-10-10-18:17:15 INFO  OpportunitiesPage : verifyOpportunitiesDropdownItems : started
+2023-10-10-18:17:15 INFO  Option: All Opportunities || Actual Option: All Opportunities
+2023-10-10-18:17:15 INFO  Option: Closing Next Month || Actual Option: Closing Next Month
+2023-10-10-18:17:15 INFO  Option: Closing This Month || Actual Option: Closing This Month
+2023-10-10-18:17:15 INFO  Option: My Opportunities || Actual Option: My Opportunities
+2023-10-10-18:17:15 INFO  Option: New Last Week || Actual Option: New Last Week
+2023-10-10-18:17:15 INFO  Option: New This Week || Actual Option: New This Week
+2023-10-10-18:17:15 INFO  Option: Opportunity Pipeline || Actual Option: Opportunity Pipeline
+2023-10-10-18:17:15 INFO  Option: Private || Actual Option: Private
+2023-10-10-18:17:15 INFO  Option: Recently Viewed Opportunities || Actual Option: Recently Viewed Opportunities
+2023-10-10-18:17:15 INFO  Option: Won || Actual Option: Won
+2023-10-10-18:17:15 INFO  BaseTest: setup : opportunitiesTest_TC16Test Object for reporting is created
+2023-10-10-18:17:15 INFO  LoginPage : loginToApp : started
+2023-10-10-18:17:16 INFO  Selecting opportunities
+2023-10-10-18:17:17 INFO  BaseTest: setup : opportunitiesTest_TC17Test Object for reporting is created
+2023-10-10-18:17:17 INFO  LoginPage : loginToApp : started
+2023-10-10-18:17:20 INFO  Selecting opportunities
+2023-10-10-18:17:21 INFO  BaseTest: setup : opportunitiesTest_TC18Test Object for reporting is created
+2023-10-10-18:17:21 INFO  LoginPage : loginToApp : started
+2023-10-10-18:17:22 INFO  Selecting opportunities
+2023-10-10-18:17:23 INFO  BaseTest: setup : opportunitiesTest_TC19Test Object for reporting is created
+2023-10-10-18:17:23 INFO  LoginPage : loginToApp : started
+2023-10-10-18:17:24 INFO  Selecting opportunities
+2023-10-10-18:17:24 INFO  BaseTest : removeDriver : removed driver
+2023-10-10-18:20:55 INFO  BaseTest : setDriver :  Spark report configured
+2023-10-10-18:20:55 INFO  BaseTest : getBrowserType : Headless chrome configured
+2023-10-10-18:20:57 INFO  BaseTest : setDriver : driver object assigned
+2023-10-10-18:20:57 INFO  BaseTest: setup : opportunitiesTest_TC15Test Object for reporting is created
+2023-10-10-18:20:57 INFO  LoginPage : loginToApp : started
+2023-10-10-18:21:02 INFO  Selecting opportunities
+2023-10-10-18:21:03 INFO  OpportunitiesPage : verifyOpportunitiesDropdownItems : started
+2023-10-10-18:21:03 INFO  Option: All Opportunities || Actual Option: All Opportunities
+2023-10-10-18:21:03 INFO  Option: Closing Next Month || Actual Option: Closing Next Month
+2023-10-10-18:21:03 INFO  Option: Closing This Month || Actual Option: Closing This Month
+2023-10-10-18:21:03 INFO  Option: My Opportunities || Actual Option: My Opportunities
+2023-10-10-18:21:03 INFO  Option: New Last Week || Actual Option: New Last Week
+2023-10-10-18:21:03 INFO  Option: New This Week || Actual Option: New This Week
+2023-10-10-18:21:03 INFO  Option: Opportunity Pipeline || Actual Option: Opportunity Pipeline
+2023-10-10-18:21:03 INFO  Option: Private || Actual Option: Private
+2023-10-10-18:21:03 INFO  Option: Recently Viewed Opportunities || Actual Option: Recently Viewed Opportunities
+2023-10-10-18:21:03 INFO  Option: Won || Actual Option: Won
+2023-10-10-18:21:03 INFO  BaseTest: setup : opportunitiesTest_TC16Test Object for reporting is created
+2023-10-10-18:21:03 INFO  LoginPage : loginToApp : started
+2023-10-10-18:21:04 INFO  Selecting opportunities
+2023-10-10-18:21:05 INFO  BaseTest: setup : opportunitiesTest_TC17Test Object for reporting is created
+2023-10-10-18:21:05 INFO  LoginPage : loginToApp : started
+2023-10-10-18:21:06 INFO  Selecting opportunities
+2023-10-10-18:21:07 INFO  BaseTest: setup : opportunitiesTest_TC18Test Object for reporting is created
+2023-10-10-18:21:07 INFO  LoginPage : loginToApp : started
+2023-10-10-18:21:08 INFO  Selecting opportunities
+2023-10-10-18:21:08 INFO  BaseTest: setup : opportunitiesTest_TC19Test Object for reporting is created
+2023-10-10-18:21:08 INFO  LoginPage : loginToApp : started
+2023-10-10-18:21:10 INFO  Selecting opportunities
+2023-10-10-18:21:10 INFO  BaseTest : removeDriver : removed driver
+2023-10-13-03:17:37 INFO  BaseTest : setDriver :  Spark report configured
+2023-10-13-03:17:37 INFO  BaseTest : getBrowserType : Headless chrome configured
+2023-10-13-03:17:40 INFO  BaseTest : setDriver : driver object assigned
+2023-10-13-03:17:40 INFO  BaseTest: setup : opportunitiesTest_TC15Test Object for reporting is created
+2023-10-13-03:17:40 INFO  LoginPage : loginToApp : started
+2023-10-13-03:17:47 INFO  Selecting opportunities
+2023-10-13-03:17:48 INFO  OpportunitiesPage : verifyOpportunitiesDropdownItems : started
+2023-10-13-03:17:48 INFO  Option: All Opportunities || Actual Option: All Opportunities
+2023-10-13-03:17:48 INFO  Option: Closing Next Month || Actual Option: Closing Next Month
+2023-10-13-03:17:48 INFO  Option: Closing This Month || Actual Option: Closing This Month
+2023-10-13-03:17:48 INFO  Option: My Opportunities || Actual Option: My Opportunities
+2023-10-13-03:17:48 INFO  Option: New Last Week || Actual Option: New Last Week
+2023-10-13-03:17:48 INFO  Option: New This Week || Actual Option: New This Week
+2023-10-13-03:17:48 INFO  Option: Opportunity Pipeline || Actual Option: Opportunity Pipeline
+2023-10-13-03:17:48 INFO  Option: Private || Actual Option: Private
+2023-10-13-03:17:48 INFO  Option: Recently Viewed Opportunities || Actual Option: Recently Viewed Opportunities
+2023-10-13-03:17:48 INFO  Option: Won || Actual Option: Won
+2023-10-13-03:17:48 INFO  BaseTest: setup : opportunitiesTest_TC16Test Object for reporting is created
+2023-10-13-03:17:48 INFO  LoginPage : loginToApp : started
+2023-10-13-03:17:52 INFO  Selecting opportunities
+2023-10-13-03:17:53 INFO  BaseTest: setup : opportunitiesTest_TC17Test Object for reporting is created
+2023-10-13-03:17:53 INFO  LoginPage : loginToApp : started
+2023-10-13-03:17:56 INFO  Selecting opportunities
+2023-10-13-03:17:57 INFO  BaseTest: setup : opportunitiesTest_TC18Test Object for reporting is created
+2023-10-13-03:17:57 INFO  LoginPage : loginToApp : started
+2023-10-13-03:18:00 INFO  Selecting opportunities
+2023-10-13-03:18:01 INFO  BaseTest: setup : opportunitiesTest_TC19Test Object for reporting is created
+2023-10-13-03:18:01 INFO  LoginPage : loginToApp : started
+2023-10-13-03:18:03 INFO  Selecting opportunities
+2023-10-13-03:18:04 INFO  BaseTest : removeDriver : removed driver

@@ -12,8 +12,10 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.safari.SafariDriver;
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 
@@ -26,9 +28,10 @@ import pages.LoginPage;
 
 public class BaseTest {
 	private static ThreadLocal<WebDriver> threadLocalDriver = new ThreadLocal<>();
+	public static ThreadLocal<ExtentTest> threadExtentTest = new ThreadLocal<>();
 	
-	static ExtentReports extent = new ExtentReports();
-	static ExtentSparkReporter spark = null;
+	protected static ExtentReports extent = new ExtentReports();
+	protected static ExtentSparkReporter spark = null;
 	public static ExtentTest test = null;
 	
 	public static Logger logger = LogManager.getLogger("BASETEST");
@@ -38,6 +41,19 @@ public class BaseTest {
 // Parallel support -
 // Proper reporting - Accurate Assertions
 // Generate logs in the framework
+	
+	@BeforeSuite
+	public void configureReport() {
+		extent = new ExtentReports();
+		spark = new ExtentSparkReporter(new File(FileConstants.REPORT_PATH));
+		extent.attachReporter(spark);
+	}
+	
+	@AfterSuite
+	public void tearDown() {
+		extent.flush();
+
+	}
 	
 	@BeforeMethod
 	public void setup(Method name) throws IOException {
